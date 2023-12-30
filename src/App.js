@@ -44,14 +44,13 @@ function App() {
 
       <Nav/>
       <MoveToTop/>
-
-      <Routes>
-        <Route path="/" element={<Home/>} />
-        <Route path="/pf" element={<Home/>} />
-        <Route path="/About" element={<About/>}/>
-        <Route path="/Project" element={<Project/>}/>
-        <Route path="/Resume" element={<Resume/>}/>
-      </Routes>
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/pf" element={<Home />} />
+              <Route path="/About" element={<About />} />
+              <Route path="/Project" element={<Project />} />
+              <Route path="/Resume" element={<Resume />} />
+         </Routes>
       
       <Footer/>
       </div>
