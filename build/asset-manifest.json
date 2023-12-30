@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3c087862.css",
+    "main.js": "/static/js/main.e6673f36.js",
+    "static/media/uniHub.png": "/static/media/uniHub.0266dd07214dfa3e281d.png",
+    "static/media/visualFlow.png": "/static/media/visualFlow.8832c4208f314eb6935a.png",
+    "static/media/Resume.pdf": "/static/media/Resume.95929839abe92544475f.pdf",
+    "index.html": "/index.html",
+    "main.3c087862.css.map": "/static/css/main.3c087862.css.map",
+    "main.e6673f36.js.map": "/static/js/main.e6673f36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c087862.css",
+    "static/js/main.e6673f36.js"
+  ]
+}
