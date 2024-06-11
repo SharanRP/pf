@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Home/static/css/main.3c087862.css",
-    "main.js": "/Home/static/js/main.a8c506be.js",
-    "static/media/uniHub.png": "/Home/static/media/uniHub.0266dd07214dfa3e281d.png",
-    "static/media/visualFlow.png": "/Home/static/media/visualFlow.8832c4208f314eb6935a.png",
-    "static/media/Legal_Assistant.png": "/Home/static/media/Legal_Assistant.3dae212e4b6ff07476e1.png",
-    "static/media/Resume.pdf": "/Home/static/media/Resume.bcc7cd8f01eb85f743d3.pdf",
-    "index.html": "/Home/index.html",
-    "main.3c087862.css.map": "/Home/static/css/main.3c087862.css.map",
-    "main.a8c506be.js.map": "/Home/static/js/main.a8c506be.js.map"
+    "main.css": "/static/css/main.3c087862.css",
+    "main.js": "/static/js/main.5803b697.js",
+    "static/media/uniHub.png": "/static/media/uniHub.0266dd07214dfa3e281d.png",
+    "static/media/visualFlow.png": "/static/media/visualFlow.8832c4208f314eb6935a.png",
+    "static/media/Legal_Assistant.png": "/static/media/Legal_Assistant.3dae212e4b6ff07476e1.png",
+    "static/media/Resume.pdf": "/static/media/Resume.bcc7cd8f01eb85f743d3.pdf",
+    "index.html": "/index.html",
+    "main.3c087862.css.map": "/static/css/main.3c087862.css.map",
+    "main.5803b697.js.map": "/static/js/main.5803b697.js.map"
   },
   "entrypoints": [
     "static/css/main.3c087862.css",
-    "static/js/main.a8c506be.js"
+    "static/js/main.5803b697.js"
   ]
 }
