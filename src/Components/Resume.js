@@ -11,7 +11,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/b
 const Resume = () => {
   const[wid, setwid]=useState(window.innerWidth);
 
-  const[Loading,SetLoading]=useState(true);
+  // const[Loading,SetLoading]=useState(true);
 
   useEffect(()=>{
     SetLoading(true)
@@ -28,47 +28,17 @@ const Resume = () => {
   window.addEventListener("load", handleResize);
   window.addEventListener("resize", handleResize);
 
-  // {Loading ? (
-  //   <div className="loader"> 
-  //     <HashLoader
-  //       color={'#007878'}
-  //       loading={true}
-  //       size={100}
-  //       aria-label="Loading Spinner"
-  //       data-testid="loader"
-  //     />
-  //   </div>
-  //   ):
-  // <div></div>}
 
   return (
 
     
     <div className='ResumePage'>
 
-{/* {Loading ? (
-    <div className="loader"> 
-    <div style={{ width: wid < 700 ? (wid > 475 ? 0.7 : 0.5) : 1 , border:'2px' , borderColor:'#007878' , margin:'auto'}}>
-      <HashLoader
-        color={'#007878'}
-        loading={true}
-        size={80}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
-      </div>
-    </div>
-    ):
-  <div>
-     <Document file={pdf} className="resumeview">
-          <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
-      </Document> */}
-    {/* </div>} */}
        <Document file={pdf} className="resumeview">
            <Page pageNumber= {1} scale={wid<700 ? ( wid>475? 0.7: 0.5): 1}/>
        </Document>
 
-      <a href={pdf} target='_blank' download="Devansh's Resume">
+      <a href={pdf}  download="Sharan's Resume">
         <button className='downloadCV' type='button'>
           <h3><BsDownload/>&nbsp; Download CV</h3>
         </button>
